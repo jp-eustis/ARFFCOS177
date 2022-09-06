@@ -1,0 +1,28 @@
+@relation Sub11QrtMile
+@attribute Model{Civic,Trackhawk,WRX,Hellcat}
+@attribute Weight real
+@attribute HorsePower real
+@attribute Torque real
+@attribute DriveTrain{FWD,RWD,AWD}
+@attribute Transmission{Automatic,Manual}
+@attribute Sub11{yes,no}
+
+@data
+Civic,2359,450,300,RWD,Manual,yes
+Civic,1500,600,520,AWD,Automatic,yes
+Civic,2800,386,291,FWD,Manual,no
+Trackhawk,5625,1000,712,AWD,Automatic,yes
+Trackhawk,4500,652,579,RWD,Manual,yes
+Trackhawk,5363,707,600,AWD,Automatic,no
+Trackhawk,7180,780,700,AWD,Autonatic,no
+WRX,2973,440,400,AWD,Manual,yes
+WRX,3600,368,299,RWD,Automatic,no
+WRX,4122,888,839,AWD,Automatic,yes
+WRX,2622,275,240,AWD,Manual,no
+Hellcat,4870,755,700,AWD,Automatic,yes
+Hellcat,6000,1800,1600,AWD,Manual,yes
+Hellcat,4223,400,380,AWD,Automatic,no
+Hellcat,5567,700,700,AWD,Automatic,yes
+
+
+
